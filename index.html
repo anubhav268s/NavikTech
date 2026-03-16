@@ -1,0 +1,661 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Foresight App by NavikTech | Safe Driving Assistant</title>
+    
+    <meta name="description" content="Foresight by NavikTech is a privacy-first, real-time driving safety application that monitors conditions using GPS, weather, and traffic data to keep you safe on the road.">
+    <meta name="keywords" content="Navik Tech, NavikTech, Foresight App, driving safety app, road safety, real-time driving alerts, privacy-first navigation">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#3A424E">
+    <link rel="canonical" href="https://www.naviktech.com/foresight" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Open Graph / Facebook ======-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.naviktech.com/foresight">
+    <meta property="og:title" content="Foresight App by NavikTech | Safe Driving Assistant">
+    <meta property="og:description" content="A privacy-first, real-time driving safety application that monitors conditions using GPS, weather, and traffic data.">
+    <meta property="og:image" content="https://www.naviktech.com/assets/images/header_app.png">
+
+    <!--====== Twitter ======-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.naviktech.com/foresight">
+    <meta property="twitter:title" content="Foresight App by NavikTech | Safe Driving Assistant">
+    <meta property="twitter:description" content="A privacy-first, real-time driving safety application that monitors conditions using GPS, weather, and traffic data.">
+    <meta property="twitter:image" content="https://www.naviktech.com/assets/images/header_app.png">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        
+
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+        
+
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.4.5.2.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--====== Custom Card Hover Effects ======-->
+    <style>
+        /* Smooth raise effect for all feature cards */
+        .single_features {
+            transition: transform 0.3s ease-out !important;
+        }
+        .single_features:hover {
+            transform: translateY(-8px);
+        }
+        /* Smooth raise effect for App/Play Store buttons */
+        .download_app ul li a {
+            transition: transform 0.3s ease-out !important;
+        }
+        .download_app ul li a:hover {
+            transform: translateY(-5px);
+        }
+        /* Smooth raise effect for main buttons (Discover More, Download App) */
+        .main-btn:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+
+    <!--====== Structured Data (Schema.org) ======-->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Foresight: Safe Driving Assist",
+      "url": "https://www.naviktech.com/foresight",
+      "operatingSystem": "Android, iOS",
+      "applicationCategory": "NavigationApplication, SafetyApplication",
+      "description": "A privacy-first, real-time driving safety application that monitors conditions using GPS, weather, and traffic data.",
+      "image": "https://www.naviktech.com/assets/images/header_app.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "NavikTech",
+        "url": "https://www.naviktech.com"
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== HEADER PART START ======-->
+
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand mr-5" href="index.html">
+                                <img src="assets/images/logo-3.PNG" alt="Navik Tech Logo" style="width: 220px; height: auto;">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#features">Feature</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#certificate">Certificate</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#news">News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#use-cases">Use</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#founder">Founder</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#download">Download</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+
+        <div id="home" class="header_hero d-lg-flex align-items-center">
+            <img class="shape shape-1" src="assets/images/shape-1.svg" alt="" aria-hidden="true">
+            <img class="shape shape-2" src="assets/images/shape-2.svg" alt="" aria-hidden="true">
+            <img class="shape shape-3" src="assets/images/shape-3.svg" alt="" aria-hidden="true">
+            
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header_hero_content mt-45">
+                            <h1 class="header_title wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.2s">Foresight: Safe Driving Assist</h1>
+                            <p class="wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.6s">A privacy-first, real-time driving safety application that monitors conditions using GPS, weather, and traffic data to keep you safe on the road.</p>
+                            <ul>
+                                <li><a class="main-btn page-scroll wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1s" href="#about">Discover More</a></li>
+                                <li><a class="main-btn main-btn-2 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s" href="https://play.google.com/store/apps/details?id=com.anubhav.foresight" target="_blank">Download App</a></li>
+                            </ul>
+                        </div> <!-- header hero content -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div class="header_image d-flex align-items-end">
+                <div class="image wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="1.8s">
+                    <img src="assets/images/header_app.png" alt="Foresight App Interface">
+                    <img src="assets/images/dots.svg" alt="" class="dots" aria-hidden="true">
+                </div> <!-- image -->
+            </div> <!-- header image -->
+        </div> <!-- header hero -->
+    </section>
+
+    <!--====== HEADER PART ENDS ======-->
+    
+    <!--====== FEATURES PART START ======-->
+
+    <section id="features" class="features_area pt-35 pb-80">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_1 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="features_icon">
+                            <i class="lni lni-dashboard"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Real-Time Risk Engine</h3>
+                            <p>Calculates driving risk scores instantly using speed, live weather conditions, and traffic severity.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_2 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="features_icon">
+                            <i class="lni lni-shield"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">100% Privacy First</h3>
+                            <p>No tracking servers. All calculations run locally on your device, and data auto-deletes after 7 days.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_3 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                        <div class="features_icon">
+                            <i class="lni lni-alarm"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Smart Alerts</h3>
+                            <p>Provides immediate audio, visual, and haptic feedback when your driving risk exceeds safe thresholds.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_1 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="features_icon">
+                            <i class="lni lni-stats-up"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">History & Analytics</h3>
+                            <p>View interactive line charts of your driving risk and speed over time. Filter to easily identify high-risk driving moments.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_2 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="features_icon">
+                            <i class="lni lni-download"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Data Export & Share</h3>
+                            <p>Generate detailed CSV reports of your driving sessions to share with family, employers, or insurance providers.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_3 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                        <div class="features_icon">
+                            <i class="lni lni-certificate"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Safety Certificate</h3>
+                            <p>Earn an official driver safety certificate with a unique ID and grade (A+ to F) based on your recent driving habits.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_1 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="features_icon">
+                            <i class="lni lni-cloud"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Offline Mode Fallback</h3>
+                            <p>Lose connection? No problem. Foresight seamlessly uses cached data to keep calculating your risk score anywhere.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_2 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="features_icon">
+                            <i class="lni lni-bolt"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Smart Battery Throttling</h3>
+                            <p>Activity recognition automatically pauses GPS and throttles API calls when you stop driving to save your battery.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single_features mt-30 features_3 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                        <div class="features_icon">
+                            <i class="lni lni-night"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Dark Mode & Customization</h3>
+                            <p>Reduce eye strain during night drives with full dark mode support, and customize your alert sounds and sensitivity.</p>
+                        </div>
+                    </div> <!-- single featuresow -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FEATURES PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about_area pt-30 pb-80">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="about_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <img class="image" src="assets/images/about.png" alt="Foresight App Features Display">
+                        <img class="dots" src="assets/images/dots.svg" alt="" aria-hidden="true">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section_title">
+                            <h2 class="title">Drive Safer with Real-Time Intelligence</h2>
+                            <p>Foresight continuously monitors your driving environment without compromising your privacy. Powered by a proprietary <strong>Weighted Multi-Factor Risk Model</strong>, it evaluates Speed, Weather, Traffic, Light Conditions, and Road Types to calculate your safety score every second.</p>
+                            <p class="mt-20">Operating efficiently in the background with a <strong>9.5/10 Security Audit Score</strong>, it provides zero-latency alerts without ever sending your location to a tracking server. Your safety and your data are entirely in your hands.</p>
+                        </div>
+                        <a class="main-btn" href="https://play.google.com/store/apps/details?id=com.anubhav.foresight" target="_blank">Download Now</a>
+                        
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+    
+    <!--====== USE CASES PART START ======-->
+
+    <section id="use-cases" class="use_cases_area pt-80 pb-80" style="background-color: #f7f8f9;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section_title text-center pb-30">
+                        <h2 class="title">Who is Foresight For?</h2>
+                        <p>Foresight is designed for everyone who values safety and privacy on the road.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="single_features mt-30 features_1 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="features_icon">
+                            <i class="lni lni-users"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Parents & Families</h3>
+                            <p>Ensure your teen is driving safely. Review detailed trip histories and high-risk alerts together, without the need for invasive live tracking.</p>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="single_features mt-30 features_2 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="features_icon">
+                            <i class="lni lni-car"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Cab & Fleet Businesses</h3>
+                            <p>Monitor driver safety and behavior without installing expensive GPS hardware. The driver's smartphone acts as an advanced telematics device.</p>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="single_features mt-30 features_3 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="features_icon">
+                            <i class="lni lni-certificate"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Insurance & RTO Proof</h3>
+                            <p>Generate verifiable Safe Driving Certificates and export detailed CSV reports to prove your driving habits for RTOs or insurance discounts.</p>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="single_features mt-30 features_1 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="features_icon">
+                            <i class="lni lni-shield"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Privacy Advocates</h3>
+                            <p>A zero-knowledge architecture ensures your location data never leaves your phone. Get premium safety features without becoming the product.</p>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="single_features mt-30 features_2 text-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                        <div class="features_icon">
+                            <i class="lni lni-alarm"></i>
+                        </div>
+                        <div class="features_content">
+                            <h3 class="features_title">Personal Use</h3>
+                            <p>Acts as a real-time personal safety alarm during your daily commute. Get instantly alerted to hazardous driving conditions to prevent accidents before they happen.</p>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== USE CASES PART ENDS ======-->
+
+    <!--====== CERTIFICATE PART START ======-->
+
+    <section id="certificate" class="about_area pt-80 pb-80">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about_content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section_title">
+                            <h2 class="title">Verifiable Safety Certificate</h2>
+                            <p>Foresight rewards your safe driving habits with an official, verifiable <strong>Certificate of Safety</strong>. Prove your driving competence to insurance companies, employers, or your family.</p>
+                        </div>
+                        <p class="mt-20">The Foresight Risk Engine evaluates your performance and generates a detailed report outlining your safety proficiency:</p>
+                        
+                        <div class="single_features mt-30 features_1 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                            <div class="features_icon">
+                                <i class="lni lni-stats-up"></i>
+                            </div>
+                            <div class="features_content">
+                                <h3 class="features_title">Safety Score Grading Scale</h3>
+                                <p>
+                                    <span class="text-success"><strong>A+ (Excellent):</strong> &ge; 90</span> &nbsp;|&nbsp; <span class="text-success"><strong>A (Good):</strong> 80-89.9</span> <br>
+                                    <span class="text-warning"><strong>B (Average):</strong> 70-79.9</span> &nbsp;|&nbsp; <span class="text-warning"><strong>C (Needs Improvement):</strong> 60-69.9</span> <br>
+                                    <span class="text-danger"><strong>D (High Risk):</strong> 50-59.9</span> &nbsp;|&nbsp; <span class="text-danger"><strong>F (Highest Risk):</strong> &lt; 50</span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="single_features mt-30 features_2 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                            <div class="features_icon">
+                                <i class="lni lni-cogs"></i>
+                            </div>
+                            <div class="features_content">
+                                <h3 class="features_title">Inside the Risk Engine</h3>
+                                <p>
+                                    Your grade isn't just based on average speed; it's calculated moment-to-moment. <strong>Speed accounts for 40% of your total risk factor</strong>. <br><br>
+                                    <i class="lni lni-checkmark text-success"></i> <strong>A or A+ (Elite):</strong> Maintain smooth, moderate speeds (under 65 km/h). <br>
+                                    <i class="lni lni-warning text-warning"></i> <strong>B or C (Average):</strong> Speeds over 90 km/h, or driving in poor weather/traffic.<br>
+                                    <i class="lni lni-ban text-danger"></i> <strong>Erratic Driving:</strong> Zig-zagging triggers an instant -10 point penalty!
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-6 col-md-9 offset-md-3 offset-lg-0">
+                    <div class="about_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="text-align: center;">
+                        <!-- Add your certificate image here and name it 'certificate.jpg' in the assets/images folder -->
+                        <img class="image shadow-lg" src="assets/images/certificate.jpg" alt="Foresight Certificate of Safety" style="border-radius: 10px; border: 4px solid #fff;">
+                        <img class="dots" src="assets/images/dots.svg" alt="" aria-hidden="true" style="position: absolute; bottom: -20px; left: -20px; z-index: -1;">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CERTIFICATE PART ENDS ======-->
+
+    <!--====== NEWS PART START ======-->
+
+    <section id="news" class="about_area pt-80 pb-80" style="background-color: #f7f8f9;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="about_image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="position: relative; text-align: center;">
+                        <!-- Add your news screenshot image here and name it 'news-article.jpg' -->
+                        <img class="image shadow-lg" src="assets/images/news-article.jpg" alt="Foresight App in the News" style="border-radius: 10px; border: 4px solid #fff;">
+                        <img class="dots" src="assets/images/dots.svg" alt="" aria-hidden="true" style="position: absolute; bottom: -20px; right: -20px; z-index: -1;">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-45 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section_title">
+                            <h2 class="title">In The News & Recognition</h2>
+                            <p class="mt-20">Discover what the media is saying about Foresight's revolutionary approach to driving safety.</p>
+                        </div>
+                        
+                        <h3 class="mt-30" style="font-size: 20px; font-weight: 600; color: #3A424E;">Young Engineer Invents Unique App to Prevent Road Accidents</h3>
+                        <p class="mt-15">"Kushinagar News - Kushinagar's young engineer Anubhav Sharma has launched a mobile app 'Foresight', which helps in reducing road accidents and ensuring data privacy for users. This app alerts in dangerous situations."</p>
+                        
+                        <a class="main-btn mt-30" href="https://share.google/q4MuTBuhrPTO2IGGk" target="_blank">Read Full Article</a>
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== NEWS PART ENDS ======-->
+
+    <!--====== FOUNDER PART START ======-->
+
+    <section id="founder" class="founder_area pt-30 pb-80">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="founder_content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section_title">
+                            <h2 class="title">Meet the Founder</h2>
+                            <p class="mt-20">Hi, I'm <strong>Anubhav Sharma</strong>, Founder & CEO of Navik Tech. My mission is to revolutionize road safety through privacy-first technology.</p>
+                            <p class="mt-20">With a strong background in software engineering and a passion for saving lives, I built Foresight to empower drivers with real-time intelligence. I believe that safety should never come at the cost of personal privacy, which is why Foresight is built from the ground up to protect your data.</p>
+                        </div>
+                    </div> <!-- founder content -->
+                </div>
+                <div class="col-lg-6 col-md-9 offset-md-3 offset-lg-0">
+                    <div class="founder_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="position: relative; text-align: center;">
+                        <!-- Make sure to place your image in the assets/images folder and rename it to founder.jpg, or change the src below -->
+                        <img class="image rounded-circle shadow-lg" src="assets/images/founder.jpg" alt="Anubhav Sharma - Founder & CEO" style="width: 350px; height: 350px; object-fit: cover; border: 8px solid #fff;">
+                        <img class="dots" src="assets/images/dots.svg" alt="" aria-hidden="true" style="position: absolute; bottom: -20px; right: 10%; z-index: -1; width: 150px;">
+                    </div> <!-- founder image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FOUNDER PART ENDS ======-->
+    
+    <!--====== DOWNLOAD APP PART START ======-->
+
+    <section id="download" class="download_app_area pt-80 mb-80">
+        <div class="container">
+            <div class="download_app">
+                <div class="download_shape">
+                    <img src="assets/images/shape-5.svg" alt="" aria-hidden="true">
+                </div>
+                <div class="download_shape_2">
+                    <img src="assets/images/shape-6.png" alt="" aria-hidden="true">
+                </div>
+                <div class="download_app_content">
+                    <ul>
+                        <li>
+                            <a class="d-flex align-items-center" href="https://play.google.com/store/apps/details?id=com.anubhav.foresight" target="_blank">
+                                <span class="icon">
+                                    <i class="lni lni-play-store"></i>
+                                </span>
+                                <span class="content media-body">
+                                    <h6 class="title">Play Store</h6>
+                                    <p>Download Now</p>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex align-items-center" href="javascript:void(0)" style="cursor: default; opacity: 0.8;">
+                                <span class="icon">
+                                    <i class="lni lni-apple"></i>
+                                </span>
+                                <span class="content">
+                                    <h6 class="title">App Store</h6>
+                                    <p>Coming Soon</p>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <h2 class="download_title mt-30">Download Foresight Today</h2>
+                    <p>Join the community of safe drivers. Get real-time alerts and comprehensive driving analytics entirely on your device.</p>
+                </div>  <!-- download app content -->
+            </div> <!-- download app -->
+        </div> <!-- container -->
+        <div class="download_app_image d-none d-lg-flex align-items-end">
+            <div class="image wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                <img src="assets/images/download.png" alt="Download Foresight Mobile App">
+            </div> <!-- image -->
+        </div> <!-- download app image -->
+    </section>
+
+    <!--====== DOWNLOAD APP PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+
+    <section id="footer" class="footer_area pt-75 pb-80">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="footer_subscribe text-center">
+                        <h2 class="subscribe_title">Navik Tech</h2>
+                        <p>Have questions or feedback? Reach out to us at <strong>naviktech.official@gmail.com</strong></p>
+                    </div> <!-- footer subscribe -->
+                    <div class="footer_social text-center mt-60">
+                        <ul>
+                            <li><a href="https://anubhav268s.github.io/Anubhav_Portfolio/" target="_blank" title="Portfolio"><span class="lni lni-briefcase"></span></a></li>
+                            <li><a href="https://x.com/Anubhav96987664" target="_blank" title="X">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-bottom: 3px;">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                                </svg>
+                            </a></li>
+                            <li><a href="https://www.linkedin.com/in/anubhav-sharma-0862761b2/" target="_blank" title="LinkedIn"><span class="lni lni-linkedin-original"></span></a></li>
+                        </ul>
+                    </div> <!-- footer social -->
+                    <div class="footer_copyright text-center mt-55">
+                        <p>Copyright &copy; 2026 Navik Tech. Designed and Developed by Anubhav Sharma.</p>
+                    </div> <!-- footer copyright -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+    
+    <!--====== PART START ======-->
+
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+    
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.4.5.2.min.js"></script>
+
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
+</html>
