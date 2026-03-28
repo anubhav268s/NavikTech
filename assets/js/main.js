@@ -15,10 +15,10 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".header_navbar").removeClass("sticky");
-            $(".header_navbar img").attr("src", "assets/images/logo-3.PNG").attr("width", "324").attr("height", "72");
+            $(".header_navbar img").attr("src", "assets/images/naviktech-logo.png").attr("width", "324").attr("height", "72");
         } else {
             $(".header_navbar").addClass("sticky");
-            $(".header_navbar img").attr("src", "assets/images/logo-2.png").attr("width", "324").attr("height", "72");
+            $(".header_navbar img").attr("src", "assets/images/naviktech-logo-2.png").attr("width", "324").attr("height", "72");
         }
     });
     
