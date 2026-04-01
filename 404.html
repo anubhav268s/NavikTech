@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        // Get the requested path, convert to lowercase, and remove any trailing slash
+        var path = window.location.pathname.toLowerCase().replace(/\/$/, "");
+        
+        // Check if the path matches any of our portfolio shortcuts
+        if (path === '/anubhav' || path === '/founder') {
+            window.location.replace("https://anubhav268s.github.io/Anubhav_Portfolio/");
+        } else {
+            // Otherwise, redirect them to the home page if they hit a dead end
+            window.location.replace("/");
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+    <p>If you are not redirected automatically, <a href="/">click here</a> to go home.</p>
+</body>
+</html>
