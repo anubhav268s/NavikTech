@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Redirecting...</title>
     <script>
-        // Get the requested path, convert to lowercase, and remove any trailing slash
-        var path = window.location.pathname.toLowerCase().replace(/\/$/, "");
+        // Get the requested exact path and remove any trailing slash
+        var path = window.location.pathname.replace(/\/$/, "");
         
         // Check if the path matches any of our portfolio shortcuts
         if (path === '/anubhav' || path === '/founder') {
