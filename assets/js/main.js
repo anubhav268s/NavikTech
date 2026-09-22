@@ -18,7 +18,7 @@ $(function() {
             $(".header_navbar img").attr("src", "assets/images/naviktech-logo.png").attr("width", "324").attr("height", "72");
         } else {
             $(".header_navbar").addClass("sticky");
-            $(".header_navbar img").attr("src", "assets/images/naviktech-logo-2.png").attr("width", "324").attr("height", "72");
+            $(".header_navbar img").attr("src", "assets/images/naviktech-logo.png").attr("width", "324").attr("height", "72");
         }
     });
     
@@ -109,28 +109,40 @@ $(function() {
     //===== Scroll depth interaction
     var scrollPos = 0;
     var ticking = false;
+    var viewportHeight = window.innerHeight;
+
+    $(window).on('resize', function () {
+        viewportHeight = window.innerHeight;
+    });
 
     function updateDepth() {
         $('.single_features').each(function () {
             var $el = $(this);
-            var offsetTop = $el.offset().top;
-            var distance = offsetTop - scrollPos;
+            var rect = this.getBoundingClientRect();
+            if (rect.bottom < -300 || rect.top > viewportHeight + 300) {
+                return;
+            }
+            var distance = rect.top + scrollPos - scrollPos;
             var depth = Math.max(Math.min((distance - 400) / 35, 16), -16);
-            $el.css('--scroll-ty', depth + 'px');
+            this.style.setProperty('--scroll-ty', depth + 'px');
         });
 
         $('.about_image, .founder_image, .download_app, .section_title').each(function () {
             var $el = $(this);
-            var offsetTop = $el.offset().top;
-            var distance = offsetTop - scrollPos;
+            var rect = this.getBoundingClientRect();
+            if (rect.bottom < -300 || rect.top > viewportHeight + 300) {
+                return;
+            }
+            var distance = rect.top + scrollPos - scrollPos;
             var move = Math.max(Math.min((distance - 500) / 45, 18), -18);
-            $el.css('--scroll-img-y', move + 'px');
+            this.style.setProperty('--scroll-img-y', move + 'px');
         });
 
         $('.hero_layer').each(function (index) {
             var $el = $(this);
             var base = (index + 1) * 8;
-            var move = Math.max(Math.min((scrollPos - $el.closest('.header_hero').offset().top) / (50 + base), base), -base);
+            var heroTop = $el.closest('.header_hero')[0].getBoundingClientRect().top + scrollPos;
+            var move = Math.max(Math.min((scrollPos - heroTop) / (50 + base), base), -base);
             $el.css('transform', 'translate3d(0, ' + move + 'px, 0)');
         });
 
